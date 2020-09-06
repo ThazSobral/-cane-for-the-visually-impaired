@@ -17,5 +17,5 @@ Esse repositório têm como propósito prototipar um sistema embarcado que auxí
 </p>
 
 <p align="end">
-    <img src="images\impaired.svg" title="impaired image" alt="impaired image" width="70px">
+    <img src="images\visually-impaired.svg" title="impaired image" alt="impaired image" width="70px">
 </p>
