@@ -13,7 +13,7 @@ Esse repositório têm como propósito prototipar um sistema embarcado que auxí
 
 <p align="center">
     <img src="images\cane-for-the-visually-impaired.png" title="esquema de conexão do protótipo" alt="esquema de conexão do protótipo">
-    <figcaption align="center">Figura 1 - Conexões do protótipo (https://www.tinkercad.com/things/fwP3Cg2Z9eK)</figcaption>
+    <p align="center">Figura 1 - Conexões do protótipo (https://www.tinkercad.com/things/fwP3Cg2Z9eK)</p>
 </p>
 
 <p align="end">
