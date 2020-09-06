@@ -4,7 +4,7 @@
 
 # -cane-for-the-visually-impaired
 
-Esse repositório têm como propósito prototipar um sistema embarcado que auxília na locomoção de deficientes visuais, ou melhor, é um tipo de "begala sondadora" para os deficientes visuais.
+Esse repositório têm como propósito prototipar um sistema embarcado que auxília na locomoção de deficientes visuais, ou melhor, é um tipo de "begala sonar" para os deficientes visuais.
 
 ## Materiais utilizados
 * 1x Arduíno Uno
