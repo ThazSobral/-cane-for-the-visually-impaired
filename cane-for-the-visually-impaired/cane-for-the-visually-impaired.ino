@@ -25,22 +25,27 @@ void loop()
   long microsec = ultrasonic.timing();
   cmMsec = ultrasonic.convert(microsec, Ultrasonic::CM);
   
-  //Exibe informacoes no serial monitor
-  
+  // exbindo no serial monitor a distância atual
   Serial.print(" - Distancia em cm: ");
   Serial.print(cmMsec);
   Serial.print("\n");
   delay(1000);
 
-  // Limite max da distância para realizar a leitura é 100cm
-  if(cmMsec < 100) {
+  // Limite max da distância para realizar a leitura é 150cm, mas podendo ser ajustado
+  if(cmMsec < 150) {
 
     // define os intervalos inversamente proporcionais da distancia para com o tempo de vibração
     // quanto maior a distância menor o tempo de vibração
     // warning: o menor valor é 10cm pois valores menores podem ter erro de leitura e falha na interpretação do sensor
-    int val = map(cmMsec, 10, 100, 900, 200);
+    int val = map(cmMsec, 10, 150, 1000, 300);
     
     digitalWrite(pin_vibration, HIGH);
+    
+    // exbindo no serial monitor o delay atual
+    Serial.print("time: ");
+    Serial.print(val);
+    Serial.print("\n");
+    
     delay(val);
     digitalWrite(pin_vibration, LOW);
   }
